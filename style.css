@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    background: #131313;
+    width: 600px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: inset 2px 3px 5px #000000, 0px 1px 1px #333;
+}
+
+.container h2{
+    color: white;
+    margin: 20px 30px;
+    font-size: 20px;
+}
+
+.container ul{
+    margin: 10px 30px;
+}
+
+.message{
+    background: crimson;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.message1{
+    background: crimson;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.hidden{
+    display: none;
+}
+
+.container ul li{
+    padding: 8px;
+    color: #ccc;
+    list-style: none;
+    font-size: 15px;
+}
+
+.container ul li label{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container #btn{
+    display: block;
+    padding: 10px;
+    font-family: inherit;
+    width: 100%;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    font-size: 20px;
+    transition: ease-in-out .1s;
+}
+
+.container #btn:hover{
+    background: rgb(143, 121, 121);
+}
