@@ -1,4 +1,4 @@
 # QuizApp
 Quiz App Using Vanilla JavaScript
 
-Successfully Deployed to https://asliddin.com/Quiz-App/
+Successfully Deployed to https://asliddinamir.github.io/Quiz-App/
